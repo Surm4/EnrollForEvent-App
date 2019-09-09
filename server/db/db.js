@@ -2,7 +2,6 @@ const dbcredentials = require('./dbcredentials')();
 const MongoClient = require('mongodb').MongoClient;
 const Uri = `MONGO_LOGIN_STRING`;
 
-let DB;
 const DbFunctions = {};
 
 DbFunctions["INSERT"] = async (objectToHandle, DbClient) => {
