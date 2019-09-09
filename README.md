@@ -1,2 +1,5 @@
 # Brainhub-recruitment-process-app
-redux, react, node, mongo, puppeter
+`
+1. npm install
+2. npm run dev
+`
