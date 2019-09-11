@@ -24,7 +24,7 @@ router.post('/enroll', [
     }
 
     const query = await DbService("INSERT", req.body);
-    query ? res.send("User enrolled successfully.") : res.send("Error occured while performing db.");
+    query ? res.status(201).send("User enrolled successfully.") : res.status(500).send("Error occured while performing db.");
 });
 
 module.exports = router;
