@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ResponseMsg from './ResponseMsg';
 import axios from 'axios';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
 axios.defaults.baseURL = 'http://localhost:7000';
 
@@ -62,7 +63,7 @@ class Form extends Component {
     return (
       <div className="form-container"> 
         <div className="title-container">
-          <div className="title">Recruitment Process App</div>
+          <div className="title">Enroll Event <small>app</small></div>
         </div>
         <form onSubmit={this.submitData.bind(this)}>
           <div className="input-container">
@@ -78,6 +79,16 @@ class Form extends Component {
     );
   };
 }
+
+ResponseMsg.propTypes = {
+  color: PropTypes.string,
+  responseMsg: PropTypes.string,
+  responseType: PropTypes.string,
+  firstName: PropTypes.string,
+  lastName: PropTypes.string,
+  email: PropTypes.string,
+  date: PropTypes.string
+};
 
 const mapStateToProps = (state) => ({
   color: state.color,
