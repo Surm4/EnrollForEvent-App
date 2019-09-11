@@ -26,7 +26,7 @@ it('should have proper title', async () => {
   const text = await page.evaluate(() => {
     return document.querySelector(".title").textContent;
   });
-  expect(text).toBe("Recruitment Process App");
+  expect(text).toBe("Enroll Event app");
 });
 
 it('elements loaded properly', async () => {
