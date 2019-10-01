@@ -1,5 +1,6 @@
 # Enroll for event SMALL app
 ![Image](https://i.imgur.com/mvI6GVF.gif)
+## How to run:
 ### Dev
 ```
 1. npm install
