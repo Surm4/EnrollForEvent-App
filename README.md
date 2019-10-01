@@ -1,5 +1,5 @@
 #Enroll for event SMALL app
-[Image](https://i.imgur.com/mvI6GVF.gifv)
+![Image](https://i.imgur.com/mvI6GVF.gifv)
 ### Dev
 ```
 1. npm install
