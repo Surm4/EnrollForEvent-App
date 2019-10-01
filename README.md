@@ -4,7 +4,7 @@
 ### Dev
 ```
 1. npm install
-3. fill db credentials in /server/db/dbcredentials.js and mongo login string using process.ENV.DB_USER / DB_PASSWORD variables in /server/db/db.js files
+3. fill db credentials in /server/db/dbcredentials.js file and mongo login string using process.ENV.DB_USER / DB_PASSWORD variables in /server/db/db.js 
 2. npm run dev
 ```
 ### Test
